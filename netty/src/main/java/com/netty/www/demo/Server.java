@@ -11,6 +11,8 @@ import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.handler.ssl.util.SelfSignedCertificate;
 
+import java.sql.Time;
+
 
 public class Server {
 
@@ -45,7 +47,9 @@ public class Server {
                         if (sslContext != null){
                             pipeline.addLast(sslContext.newHandler(ch.alloc()));
                         }
-                        pipeline.addLast(serverHandler);
+//                        pipeline.addLast(serverHandler);
+//                        pipeline.addLast(new MyInboundHandler());
+                        pipeline.addLast(new TimerExampleHandler());
                     }
             });
 

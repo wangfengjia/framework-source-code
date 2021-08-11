@@ -17,6 +17,7 @@
         <module>rocketmq</module>
         <module>spring-boot</module>
         <module>spring-cloud</module>
+        <module>guava</module>
     </modules>
 
     <properties>
