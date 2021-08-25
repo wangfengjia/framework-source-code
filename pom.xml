@@ -19,6 +19,7 @@
         <module>guava</module>
         <module>lmybatis</module>
         <module>spring-mvc</module>
+        <module>dubbo</module>
     </modules>
 
     <properties>
