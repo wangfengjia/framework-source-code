@@ -6,3 +6,5 @@
 /netty/target/
 /spring-boot/target/
 /spring/target/
+/guava/target/
+/guava/guava.iml
