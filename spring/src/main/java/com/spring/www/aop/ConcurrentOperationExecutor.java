@@ -24,7 +24,7 @@ public class ConcurrentOperationExecutor implements Ordered {
         return maxRetries;
     }
 
-    @Around("execution(* com.spring.www.service.UserService.create())")
+    @Around("execution(* com.spring.www.service.impl.UserServiceImpl.create())")
     public Object doConcurrentOperation(ProceedingJoinPoint point) throws Throwable {
 
         System.out.println("execute method before");

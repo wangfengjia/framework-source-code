@@ -9,14 +9,17 @@ public class MyApplicationContext {
 
     public static void main(String[] args) {
 
-        ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"component.xml"});
+        ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"spring-transaction-v1.xml"});
 //
 //        User user1 = context.getBean("user1", User.class);
 //        System.out.println(user1.getName());
 //
         IUserService userService = context.getBean("userService", IUserService.class);
+        userService.create(null);
+        System.out.println("test aop");
 
-        userService.create();
-
+//        UserMapper userDao = context.getBean("userDaoTrans", UserMapper.class);
+//
+//        userDao.getById(1);
     }
 }

@@ -1,4 +1,4 @@
-package com.spring.www.component;
+package com.spring.www.domain;
 
 public class User {
 
