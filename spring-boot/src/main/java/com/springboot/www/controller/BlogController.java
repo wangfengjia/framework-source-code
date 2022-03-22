@@ -16,4 +16,11 @@ public class BlogController {
     public String hello(){
         return "hello, world";
     }
+
+    @GetMapping("/create")
+    @ResponseBody
+    public String create(){
+
+        return "create success";
+    }
 }
