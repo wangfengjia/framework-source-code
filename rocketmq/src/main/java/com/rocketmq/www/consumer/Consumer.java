@@ -29,5 +29,8 @@ public class Consumer {
         //启动消费者实例
         consumer.start();
         System.out.printf("Consumer Started.%n");
+
+
+        System.out.println("hello");
     }
 }
