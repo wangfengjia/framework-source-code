@@ -7,3 +7,5 @@ mybatis:
     - classpath*:com/**/mapper/*.xml
 server:
   port: 9210
+
+

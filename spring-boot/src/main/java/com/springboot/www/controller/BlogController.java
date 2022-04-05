@@ -1,20 +1,18 @@
 package com.springboot.www.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Slf4j
 @RequestMapping(value = "/blog")
 public class BlogController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello/{id}")
     @ResponseBody
-    public String hello(){
-        return "hello, world";
+    public String hello(@PathVariable("id") Integer id){
+        System.out.print("request hello");
+        return "hello, world, " + id;
     }
 
     @GetMapping("/create")
@@ -23,4 +21,7 @@ public class BlogController {
 
         return "create success";
     }
+
+
+
 }
