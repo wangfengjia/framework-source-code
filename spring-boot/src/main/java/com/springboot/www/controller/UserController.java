@@ -1,7 +1,9 @@
 package com.springboot.www.controller;
 
 import com.springboot.www.domain.User;
+import com.springboot.www.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -9,20 +11,19 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/user")
 public class UserController {
 
+    @Autowired
+    private IUserService userService;
+
     @PostMapping("/create")
     public String create(@RequestBody User user){
         return user.getName();
     }
 
-
     @GetMapping("/get")
     public User get(){
 
-        User user = new User();
-        user.setId(1);
-        user.setName("wangyongchun");
-        user.setPassword("duoduo");
-
+        User user = userService.getById(1L);
         return user;
     }
+
 }

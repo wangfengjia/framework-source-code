@@ -1,0 +1,30 @@
+2022-04-06 20:28:35.023 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2022-04-06 20:28:35.045 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - ==> Parameters: 1(Long)
+2022-04-06 20:28:35.062 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - <==      Total: 1
+2022-04-06 20:28:36.626 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2022-04-06 20:28:36.627 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.UserMapper.getById - ==> Parameters: 1(Long)
+2022-04-06 20:28:36.629 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.UserMapper.getById - <==      Total: 1
+2022-04-06 20:31:40.494 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2022-04-06 20:31:40.510 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - ==> Parameters: 1(Long)
+2022-04-06 20:31:40.530 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - <==      Total: 1
+2022-04-06 20:31:47.988 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2022-04-06 20:31:47.989 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.UserMapper.getById - ==> Parameters: 1(Long)
+2022-04-06 20:31:47.991 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.UserMapper.getById - <==      Total: 1
+2022-04-06 20:31:54.051 [http-nio-9210-exec-3] DEBUG com.springboot.www.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2022-04-06 20:31:54.052 [http-nio-9210-exec-3] DEBUG com.springboot.www.mapper.UserMapper.getById - ==> Parameters: 1(Long)
+2022-04-06 20:31:54.055 [http-nio-9210-exec-3] DEBUG com.springboot.www.mapper.UserMapper.getById - <==      Total: 1
+2022-04-07 20:30:18.860 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2022-04-07 20:30:18.886 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - ==> Parameters: 1(Long)
+2022-04-07 20:30:18.929 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.UserMapper.getById - <==      Total: 1
+2022-04-07 20:46:59.081 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,name,price FROM book WHERE id=?
+2022-04-07 20:46:59.103 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.BookMapper.selectById - ==> Parameters: 1(Integer)
+2022-04-07 20:46:59.115 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.BookMapper.selectById - <==      Total: 1
+2022-04-07 20:47:00.684 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,name,price FROM book WHERE id=?
+2022-04-07 20:47:00.684 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.BookMapper.selectById - ==> Parameters: 1(Integer)
+2022-04-07 20:47:00.687 [http-nio-9210-exec-2] DEBUG com.springboot.www.mapper.BookMapper.selectById - <==      Total: 1
+2022-04-07 21:04:31.107 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==>  Preparing: SELECT id,name,price FROM watch WHERE id=?
+2022-04-07 21:04:31.123 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==> Parameters: 1(Integer)
+2022-04-07 21:04:31.135 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - <==      Total: 1
+2022-04-07 21:07:02.045 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==>  Preparing: SELECT id,name,price FROM watch WHERE id=?
+2022-04-07 21:07:02.062 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==> Parameters: 1(Integer)
+2022-04-07 21:07:02.074 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - <==      Total: 1
