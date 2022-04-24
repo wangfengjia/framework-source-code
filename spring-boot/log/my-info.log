@@ -28,3 +28,15 @@
 2022-04-07 21:07:02.045 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==>  Preparing: SELECT id,name,price FROM watch WHERE id=?
 2022-04-07 21:07:02.062 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==> Parameters: 1(Integer)
 2022-04-07 21:07:02.074 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - <==      Total: 1
+2022-04-08 20:50:06.826 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectPage - ==>  Preparing: SELECT id,name,price FROM watch WHERE (name LIKE ?)
+2022-04-08 20:50:06.845 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectPage - ==> Parameters: %apple%(String)
+2022-04-08 20:50:06.863 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectPage - <==      Total: 1
+2022-04-08 20:54:49.085 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectPage - ==>  Preparing: SELECT id,name,price FROM watch WHERE (name LIKE ?)
+2022-04-08 20:54:49.098 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectPage - ==> Parameters: %apple%(String)
+2022-04-08 20:54:49.108 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectPage - <==      Total: 1
+2022-04-09 12:50:54.035 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==>  Preparing: SELECT id,name,price FROM watch WHERE id=?
+2022-04-09 12:50:54.057 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==> Parameters: 1(Integer)
+2022-04-09 12:50:54.075 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - <==      Total: 1
+2022-04-09 13:06:11.920 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==>  Preparing: SELECT id,name,price FROM watch WHERE id=?
+2022-04-09 13:06:11.936 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - ==> Parameters: 1(Integer)
+2022-04-09 13:06:11.948 [http-nio-9210-exec-1] DEBUG com.springboot.www.mapper.WatchMapper.selectById - <==      Total: 1

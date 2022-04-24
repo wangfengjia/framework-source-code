@@ -13,11 +13,11 @@
         <module>netty</module>
         <module>rocketmq</module>
         <module>spring-boot</module>
-        <module>spring-cloud</module>
         <module>guava</module>
         <module>lmybatis</module>
         <module>spring-mvc</module>
         <module>dubbo</module>
+        <module>juc</module>
     </modules>
 
     <parent>

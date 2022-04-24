@@ -13,8 +13,11 @@ spring:
       stat-view-servlet: #访问监控页面的用户名和密码
         login-username: druid
         login-password: druid
+  redis:
+    url: redis://127.0.0.1:6379
 #mybatis:
 ##  config-location: classpath:mybatis/mybatis-config.xml
 #  mapper-locations: classpath:mybatis/mapper/*.xml
 #  configuration: # 指定mybatis全局配置文件中的配置项
 #    map-underscore-to-camel-case: true
+
